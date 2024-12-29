@@ -1,0 +1,49 @@
+content:
+  name: 文章管理
+  article:
+    name: 文章内容
+    validator:
+      title: 请输入标题
+      class_id: 请选择分类
+      source: 请输入作者
+  category:
+    name: 文章分类
+    validator:
+      name: 请输入名称
+      article: 请先删除该分类下文章
+    magic:
+      name: 魔方数据
+    top:
+      name: 置顶数据
+    topSave:
+      name: 置顶保存
+  source:
+    name: 文章来源
+    validator:
+      name: 请输入名称
+  page:
+    name: 页面内容
+    validator:
+      title: 请输入标题
+      name: 请输入调用名
+  menu:
+    name: 菜单管理
+    validator:
+      title: 请输入标题
+      name: 请输入调用名
+  menuData:
+    name: 菜单组管理
+    validator:
+      title: 请输入分组标题
+  attr:
+    name: 文章属性
+    validator:
+      name: 请输入名称
+  replace:
+    name: 内容替换
+  tags:
+    name: 文章标签
+  comment:
+    name: 文章评论
+  recommend:
+    name: 文章推荐

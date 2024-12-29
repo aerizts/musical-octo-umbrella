@@ -1,0 +1,76 @@
+{
+    "_readme": [
+        "This file relies on the Dux application to be in a locked state",
+        "Read more about it at https://dux.plus"
+    ],
+    "packages": [
+        {
+            "name": "duxweb/cloud",
+            "description": "CMS Cloud Application",
+            "version": "0.0.4",
+            "app": "cloud"
+        },
+        {
+            "name": "duxweb/contentExtend",
+            "description": "Content Module Extension Applications",
+            "version": "0.0.1",
+            "phpDependencies": [],
+            "app": "contentExtend"
+        },
+        {
+            "name": "duxweb/install",
+            "description": "Installation Wizard Applications",
+            "version": "0.0.5",
+            "app": "install"
+        },
+        {
+            "name": "duxweb/cms",
+            "description": "CMS Basic Application",
+            "version": "0.2.6",
+            "phpDependencies": {
+                "erusev/parsedown": "^1.7",
+                "benjaminhoegh/parsedown-toc": "^1.5"
+            },
+            "app": "cms"
+        },
+        {
+            "name": "duxweb/tools",
+            "description": "System Tools Applications",
+            "version": "0.3.6",
+            "phpDependencies": {
+                "chillerlan/php-qrcode": "^4.3",
+                "pelago/emogrifier": "^7.1"
+            },
+            "app": "tools"
+        },
+        {
+            "name": "duxweb/poster",
+            "description": "Poster Designer",
+            "version": "0.0.4",
+            "app": "poster"
+        },
+        {
+            "name": "duxweb/content",
+            "description": "Content Management Applications",
+            "version": "0.3.3",
+            "phpDependencies": {
+                "pelago/emogrifier": "^7.1"
+            },
+            "app": "content"
+        },
+        {
+            "name": "duxweb/base",
+            "description": "System Base Applications",
+            "version": "0.8.4",
+            "phpDependencies": {
+                "duxweb/dux-lite": "^1.0"
+            },
+            "jsDependencies": {
+                "@duxweb/dux-extend": "^0.2.1",
+                "@duxweb/dux-plugin": "^0.0.8",
+                "@duxweb/dux-refine": "^0.16.4"
+            },
+            "app": "system"
+        }
+    ]
+}

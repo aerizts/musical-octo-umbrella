@@ -1,0 +1,44 @@
+system:
+  name: Системы
+  auth:
+    validator:
+      username: Введите номер счета.
+      password: Введите пароль.
+    error:
+      login: Ошибка аккаунта или пароля.
+      passwordCheck: Три ошибки в пароле входа, одна минута ожидания
+  user:
+    name: Управление администраторами
+    validator:
+      nickname: Введите псевдоним
+      username: Введите имя пользователя
+      usernameExists: Этот пользователь уже существует
+      password: Введите пароль.
+      roles: Выберите роль
+  role:
+    name: Роль администратора
+    validator:
+      name: Введите имя
+    permission:
+      name: Полномочия
+  operate:
+    name: Записи операций
+  total:
+    name: Системная статистика
+    stats:
+      name: Режим работы
+    hardware:
+      name: Аппаратные данные
+    speedNode:
+      name: Узлы измерения скорости
+    speedTest:
+      name: станционное измерение скорости
+    validator:
+      node: Нет доступных узлов измерения скорости
+      line: Выберите линию измерения скорости.
+      token: Заполните тахометр.
+  api:
+    name: Разрешение интерфейса
+    validator:
+      name: Введите имя
+

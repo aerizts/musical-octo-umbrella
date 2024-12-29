@@ -1,0 +1,14 @@
+cms:
+  name: Site Management
+  index:
+    name: Site statistics
+  theme:
+    name: Site template
+  setting:
+    name: Site Settings
+    show:
+      name: set information
+    edit:
+      name: Save Settings
+    config:
+      name: Template configuration

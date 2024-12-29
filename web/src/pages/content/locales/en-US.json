@@ -1,0 +1,150 @@
+{
+  "content": {
+    "name": "content",
+    "articleGroup": {
+      "name": "Article Management"
+    },
+    "articleExtend": {
+      "name": "Article Expansion"
+    },
+    "article": {
+      "name": "Article List",
+      "tab": {
+        "all": "whole",
+        "published": "Published",
+        "unpublished": "Unpublished"
+      },
+      "validate": {
+        "title": "Please enter a title",
+        "class": "Please choose a category",
+        "keywords": "Please enter keywords",
+        "descriptions": "Please enter article description, do not fill in automatic extraction",
+        "activity": "Please choose an activity"
+      },
+      "fields": {
+        "category": "classification",
+        "title": "title",
+        "subtitle": "subtitle",
+        "image": "Cover image",
+        "imagesAuto": "Extract Cover",
+        "auto": "automatic",
+        "manual": "Manual",
+        "status": "state",
+        "source": "source",
+        "activity": "activity",
+        "content": "content",
+        "virtualView": "Virtual views",
+        "recommend": "recommend",
+        "attrs": "attribute",
+        "createdAt": "Creation time",
+        "pushAt": "Release time",
+        "url": "Customize URL"
+      }
+    },
+    "source": {
+      "name": "Article source",
+      "fields": {
+        "name": "name",
+        "avatar": "head portrait",
+        "createdAt": "Creation time"
+      }
+    },
+    "recommend": {
+      "name": "Article recommendation",
+      "fields": {
+        "name": "name",
+        "createdAt": "Creation time",
+        "articles": "Recommended articles"
+      },
+      "help": {
+        "name": "Recommended position description",
+        "articles": "Select recommended related articles"
+      }
+    },
+    "tags": {
+      "name": "Article tags",
+      "fields": {
+        "name": "name",
+        "view": "Page views",
+        "count": "Number of citations",
+        "createdAt": "Creation time"
+      }
+    },
+    "category": {
+      "name": "Article classification",
+      "fields": {
+        "parent": "Category parent ",
+        "magic": "Cube Data",
+        "name": "name",
+        "image": "Cover image",
+        "top": "Top up"
+      }
+    },
+    "attr": {
+      "name": "Article attributes",
+      "fields": {
+        "name": "name",
+        "createdAt": "Creation time"
+      }
+    },
+    "replace": {
+      "name": "Content replacement",
+      "fields": {
+        "from": "Source word",
+        "to": "substitute word",
+        "createdAt": "Creation time"
+      }
+    },
+    "comment": {
+      "name": "Article comments",
+      "fields": {
+        "user": "user",
+        "title": "article",
+        "content": "comment",
+        "createdAt": "Creation time"
+      }
+    },
+    "page": {
+      "name": "Page management",
+      "tab": {
+        "all": "whole",
+        "published": "Published",
+        "unpublished": "Unpublished"
+      },
+      "validate": {
+        "title": "Please enter a title"
+      },
+      "fields": {
+        "name": "Call Name",
+        "title": "title",
+        "subtitle": "subtitle",
+        "image": "Cover image",
+        "status": "state",
+        "content": "content",
+        "virtualView": "Virtual views",
+        "createdAt": "Creation time"
+      }
+    },
+    "menu": {
+      "name": "Menu management",
+      "fields": {
+        "addGroup": "Create a group",
+        "editGroup": "Editorial team",
+        "title": "menu title",
+        "subtitle": "Menu Subtitle",
+        "image": "Menu image",
+        "url": "Menu link",
+        "parent": "Superior menu",
+        "groupName": "Menu group name",
+        "groupTitle": "Menu group description"
+      },
+      "placeholder": {
+        "group": "Please select the menu group"
+      }
+    },
+    "setting": {
+      "name": "Content configuration"
+    }
+  }
+  
+}

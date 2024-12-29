@@ -1,0 +1,49 @@
+content:
+  name: 문서 관리
+  article:
+    name: 기사 내용
+    validator:
+      title: 제목을 입력하십시오.
+      class_id: 분류를 선택하십시오.
+      source: 작성자를 입력하십시오.
+  category:
+    name: 문장 분류
+    validator:
+      name: 이름을 입력하십시오.
+      article: 먼저 이 분류 아래 글을 삭제하십시오
+    magic:
+      name: 큐브 데이터
+    top:
+      name: 상단 데이터
+    topSave:
+      name: 위쪽 설정 저장
+  source:
+    name: 기사 출처
+    validator:
+      name: 이름을 입력하십시오.
+  page:
+    name: 페이지 내용
+    validator:
+      title: 제목을 입력하십시오.
+      name: 호출 이름을 입력하십시오.
+  menu:
+    name: 메뉴 관리
+    validator:
+      title: 제목을 입력하십시오.
+      name: 호출 이름을 입력하십시오.
+  menuData:
+    name: 메뉴 그룹 관리
+    validator:
+      title: 그룹 제목을 입력하십시오.
+  attr:
+    name: 기사 등록 정보
+    validator:
+      name: 이름을 입력하십시오.
+  replace:
+    name: 컨텐트 교체
+  tags:
+    name: 기사 태그
+  comment:
+    name: 기사 리뷰
+  recommend:
+    name: 기사 추천

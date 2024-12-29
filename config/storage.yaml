@@ -1,0 +1,14 @@
+type: local
+ext:
+    - jpg
+    - jpeg
+    - png
+    - bmp
+    - webp
+    - mp4
+    - xls
+    - xlsx
+    - doc
+    - docx
+drivers:
+    local: { type: local, public_url: 'http://localhost/uploads/', path: public/uploads }

@@ -1,0 +1,20 @@
+{
+    "name": "project",
+    "description": "This is the dux application dependency configuration",
+    "dependencies": {
+        "duxweb/cms": "0.2.6",
+        "duxweb/content": "0.3.3",
+        "duxweb/install": "0.0.5",
+        "duxweb/base": "0.8.4",
+        "duxweb/tools": "0.3.6",
+        "duxweb/cloud": "0.0.4",
+        "duxweb/contentExtend": "0.0.1",
+        "duxweb/poster": "0.0.4"
+    },
+    "apps": {
+        "dux/cms": 1722908122,
+        "dux/base": 1722909317,
+        "dux/contentExtend": 1712583383,
+        "dux/poster": 1721139228
+    }
+}

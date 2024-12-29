@@ -1,0 +1,44 @@
+system:
+  name: 系統
+  auth:
+    validator:
+      username: 請輸入帳號
+      password: 請輸入密碼
+    error:
+      login: 帳號或者密碼錯誤
+      passwordCheck: 三次登入密碼錯誤，等待一分鐘
+  user:
+    name: 管理員管理
+    validator:
+      nickname: 請輸入昵稱
+      username: 請輸入用戶名
+      usernameExists: 該用戶已存在
+      password: 請輸入密碼
+      roles: 請選擇角色
+  role:
+    name: 管理員角色
+    validator:
+      name: 請輸入名稱
+    permission:
+      name: 權限
+  operate:
+    name: 操作記錄
+  total:
+    name: 系統統計
+    stats:
+      name: 運行狀態
+    hardware:
+      name: 硬體數據
+    speedNode:
+      name: 測速節點
+    speedTest:
+      name: 網站測速
+    validator:
+      node: 暫無可用測速節點
+      line: 請選擇測速線路
+      token: 請填寫測速token
+  api:
+    name: 介面授權
+    validator:
+      name: 請輸入名稱
+

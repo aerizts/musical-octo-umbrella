@@ -1,0 +1,66 @@
+tools:
+  name: 工具
+  area:
+    name: 地区数据
+    import:
+      name: 导入
+    cascade:
+      name: 选择
+  magicData:
+    name: 魔方数据
+  magicGroup:
+    name: 数据分组
+    validator:
+      name: 请输入名称
+      label: 请输入标签
+      icon: 请输入图标名
+  magic:
+    name: 数据魔方
+    validator:
+      name: 数据名只能为英文数字和下划线
+      group: 请选择数据分组
+      label: 请输入数据标签
+      fields: 请配置数据字段
+      fieldsFull: 字段配置不完整
+      fieldsFormat: 字段名只能为英文数字和下划线
+      data: 数据不存在
+    source:
+      name: 数据源
+    config:
+      name: 配置
+    sourceData:
+      name: 数据
+  magicSource:
+    name: 数据源
+    validator:
+      name: 请输入名称
+      data: 数据格式不正确
+  file:
+    name: 附件管理
+  fileDir:
+    name: 附件目录
+    validator:
+      name: 请输入目录名
+  backup:
+    name: 备份恢复
+    validator:
+      table: 请选择导出表
+      title: 请填写描述
+      notFound: 没有找到数据
+    message:
+      export: 导出数据成功
+      import: 导入数据成功
+    import:
+      name: 导入
+    export:
+      name: 导出
+    download:
+      name: 下载
+  poster:
+    name: 海报
+    validator:
+      title: 请填写标题
+extend:
+  name: 扩展
+  magic:
+    name: 数据魔方

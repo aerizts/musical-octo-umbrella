@@ -1,0 +1,44 @@
+system:
+  name: システム
+  auth:
+    validator:
+      username: アカウントを入力してください
+      password: パスワードを入力してください
+    error:
+      login: アカウントまたはパスワードが間違っている
+      passwordCheck: 3回のログインパスワードエラー、1分待ち
+  user:
+    name: 管理者管理
+    validator:
+      nickname: ニックネームを入力してください
+      username: ユーザー名を入力してください
+      usernameExists: ユーザーはすでに存在します
+      password: パスワードを入力してください
+      roles: 役割を選択してください
+  role:
+    name: 管理者ロール
+    validator:
+      name: 名前を入力してください
+    permission:
+      name: アクセス権
+  operate:
+    name: オペレーションレコード
+  total:
+    name: システム統計
+    stats:
+      name: 運転状態
+    hardware:
+      name: ハードウェアデータ
+    speedNode:
+      name: そくどそくていノード
+    speedTest:
+      name: サイト速度測定
+    validator:
+      node: 使用可能な速度測定ノードがありません
+      line: 速度測定回路を選択してください
+      token: 速度測定トークンに記入してください
+  api:
+    name: インタフェース認証
+    validator:
+      name: 名前を入力してください
+

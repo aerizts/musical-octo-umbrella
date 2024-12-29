@@ -1,0 +1,49 @@
+content:
+  name: Управление статьями
+  article:
+    name: Статьи
+    validator:
+      title: Введите заголовок
+      class_id: Выберите классификацию
+      source: Введите автора
+  category:
+    name: Классификация статей
+    validator:
+      name: Введите имя
+      article: Пожалуйста, удалите статью из этой категории.
+    magic:
+      name: Данные кубика Рубика
+    top:
+      name: Данные о потолке
+    topSave:
+      name: Сохранить сверху
+  source:
+    name: Источник статьи
+    validator:
+      name: Введите имя
+  page:
+    name: Содержание страницы
+    validator:
+      title: Введите заголовок
+      name: Введите имя вызова
+  menu:
+    name: Меню Управление
+    validator:
+      title: Введите заголовок
+      name: Введите имя вызова
+  menuData:
+    name: Управление группами меню
+    validator:
+      title: Введите заголовок группы
+  attr:
+    name: Свойства статьи
+    validator:
+      name: Введите имя
+  replace:
+    name: Замена содержимого
+  tags:
+    name: Теги статей
+  comment:
+    name: Статьи
+  recommend:
+    name: Статья рекомендует
