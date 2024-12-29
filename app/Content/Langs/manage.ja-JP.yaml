@@ -1,0 +1,49 @@
+content:
+  name: 記事の管理
+  article:
+    name: 記事の内容
+    validator:
+      title: タイトルを入力してください
+      class_id: 分類を選択してください
+      source: 作者を入力してください
+  category:
+    name: 記事の分類
+    validator:
+      name: 名前を入力してください
+      article: まずこの分類の下の記事を削除してください
+    magic:
+      name: キューブデータ
+    top:
+      name: セットトップデータ
+    topSave:
+      name: セットトップ保存
+  source:
+    name: 記事のソース
+    validator:
+      name: 名前を入力してください
+  page:
+    name: ページの内容
+    validator:
+      title: タイトルを入力してください
+      name: 呼び出し名を入力してください
+  menu:
+    name: メニュー管理
+    validator:
+      title: タイトルを入力してください
+      name: 呼び出し名を入力してください
+  menuData:
+    name: メニューグループ管理
+    validator:
+      title: グループ化タイトルを入力してください
+  attr:
+    name: 記事のプロパティ
+    validator:
+      name: 名前を入力してください
+  replace:
+    name: コンテンツ置換
+  tags:
+    name: 記事のラベル
+  comment:
+    name: 記事のコメント
+  recommend:
+    name: 記事のおすすめ

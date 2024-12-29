@@ -1,0 +1,59 @@
+tools:
+  name: Инструменты
+  area:
+    name: Региональные данные
+    import:
+      name: Импорт
+    cascade:
+      name: Выбор
+  magicGroup:
+    name: Группирование данных
+    validator:
+      name: Введите имя
+      label: Введите вкладку
+      icon: Введите имя значка
+  magic:
+    name: Треугольник данных
+    validator:
+      name: Имена данных могут быть только английскими цифрами и подчеркнуты
+      group: Выберите группу данных
+      label: Введите вкладку данных
+      fields: Настройка поля данных
+      fieldsFull: Настройка поля не завершена
+      fieldsFormat: Названия полей могут быть только английскими цифрами и подчёркнутыми
+      data: Данные отсутствуют
+    source:
+      name: Источник данных
+    config:
+      name: Настройка
+    sourceData:
+      name: Данные
+  file:
+    name: Управление приложениями
+  fileDir:
+    name: Содержание
+    validator:
+      name: Введите имя каталога
+  backup:
+    name: Восстановление резервного копирования
+    validator:
+      table: Выберите таблицу экспорта
+      title: Заполните описание.
+      notFound: Данные не найдены
+    message:
+      export: Экспорт данных успешно
+      import: Импортировать данные успешно
+    import:
+      name: Импорт
+    export:
+      name: Экспорт
+    download:
+      name: Скачать
+  poster:
+    name: Плакаты
+    validator:
+      title: Заполните заголовок.
+extend:
+  name: Расширение
+  magic:
+    name: Треугольник данных

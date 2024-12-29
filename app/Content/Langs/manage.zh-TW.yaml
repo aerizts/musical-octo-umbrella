@@ -1,0 +1,49 @@
+content:
+  name: 文章管理
+  article:
+    name: 文章內容
+    validator:
+      title: 請輸入標題
+      class_id: 請選擇分類
+      source: 請輸入作者
+  category:
+    name: 文章分類
+    validator:
+      name: 請輸入名稱
+      article: 請先删除該分類下文章
+    magic:
+      name: 魔方數據
+    top:
+      name: 置頂數據
+    topSave:
+      name: 置頂保存
+  source:
+    name: 文章來源
+    validator:
+      name: 請輸入名稱
+  page:
+    name: 頁面內容
+    validator:
+      title: 請輸入標題
+      name: 請輸入調用名
+  menu:
+    name: 選單管理
+    validator:
+      title: 請輸入標題
+      name: 請輸入調用名
+  menuData:
+    name: 選單組管理
+    validator:
+      title: 請輸入分組標題
+  attr:
+    name: 文章内容
+    validator:
+      name: 請輸入名稱
+  replace:
+    name: 內容替換
+  tags:
+    name: 文章標籤
+  comment:
+    name: 文章評論
+  recommend:
+    name: 文章推薦

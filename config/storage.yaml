@@ -1,0 +1,4 @@
+type: local
+ext: {  }
+drivers:
+    local: { type: local, public_url: 'http://duxcms.test/uploads/', path: public/uploads }
